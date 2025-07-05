@@ -1,0 +1,106 @@
+@import "../utils/variables.scss";
+.info-order
+{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    opacity: 1;
+    color: $main-red;
+    margin-bottom: 4px;
+}
+.info-title
+{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 26.41px;
+    line-height: 41.08px;
+    letter-spacing: 0px;
+    color: white;
+    margin: 0;
+}
+.hero-text
+{
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #939393;
+    width: 210px;
+    height: 46px;
+    top: 504px;
+    left: 62px;
+    margin-top: 4px
+;
+}
+@media (min-width: 320px)
+{
+    .hero-info
+    {
+        width: 312px;
+        height: 570px;
+        border-width: 1px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+        gap: 45px;
+        margin-bottom: 0;
+    }
+    .hero-vid
+    {
+        position: relative;
+    }
+    .hero-cover
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+    .section-hero
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .hero-explore
+    {
+        font-family: Roboto;
+        font-weight: 900;
+        font-size: 58.15px;
+        line-height: 63px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color: white;
+        width: 314px;
+        height: 126px;
+        
+    }
+    .hero-button
+    {
+        width: 315px;
+        height: 59px;
+        border-radius: 107.63px;
+        padding: 10.2px;
+        gap: 5.1px;
+        font-family: DM Sans;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        background-color: $main-red;
+        border: none;
+        cursor: pointer;
+    }
+}

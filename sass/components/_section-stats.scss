@@ -1,0 +1,100 @@
+@import "../utils/variables.scss";
+@media (min-width: 320px)
+{
+    .section-stats
+    {
+        background-image: url(/img/boy_in-yellow.png);
+        height: 1970px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .stats-overall
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 630px;
+    }
+    .slider
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+    .slider-img
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 11px;
+    }
+    .slider-svg
+    {
+        width: 12px;
+        height: 20px;
+    }
+    .stats-bg
+    {
+        width: 375px;
+        height: 920px;
+        background-color: #020C21E6;
+    }
+    .explore-secrets
+    {
+        color: $main-blue;
+        font-family: DM Sans;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+        width: 314px;
+    }
+    .upper-stat
+    {
+        font-family: DM Sans;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        width: 250px;
+    }
+    .stats-info
+    {
+        font-family: DM Sans;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: #E0E0E0;
+        width: 314px;
+        margin-top: 4px;
+    }
+    .stats-numbers
+    {
+        font-family: DM Sans;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: $main-red;
+        margin-bottom: 0;
+    }
+    .stats-item
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 30px;
+        gap: 0;
+    }
+}

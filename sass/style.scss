@@ -1,0 +1,27 @@
+@import "./components/header";
+@import "./components/hero";
+@import "./components/section-learn";
+@import "./components/section-stats";
+@import "./components/section_hills-valleys";
+@import "./components/section-life";
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+}
+body
+{
+    margin: 0;
+}
+@media (min-width: 320px)
+{
+.container
+    {
+        max-width: 265px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+}
