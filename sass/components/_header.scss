@@ -1,3 +1,4 @@
+@import "../utils/variables.scss";
 .header-logo
 {
     font-family: Roboto;
@@ -65,11 +66,12 @@
         gap: 30px;
         display: flex;
         flex-direction: column;
+        padding-left: 0;
     }
 .menu-overlay {
         display: flex;
         padding-top: 50px;
-        padding-left: 25px;
+        padding-left: 40px;
         position: absolute;
         top: 0;
         left: 0;
@@ -81,7 +83,7 @@
         z-index: 100;
         align-items: start;
         gap: 80px;
-        justify-content: end;
+        justify-content: center;
     }
 
     .menu-overlay.active {
@@ -122,5 +124,60 @@
             height: 24px;
             color: white;
         }
+        .header-nav
+        {
+            display: none;
+        }
     
+}
+@media (min-width: 1024px)
+{
+    .header
+    {
+        display: flex;
+        gap: 120px;
+        align-items: center;
+        justify-content: start;
+        padding-top: 25px;
+    }
+    .hero-bg
+    {
+        background: linear-gradient(215.79deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%), url(/img/hero-bg-pc.png) no-repeat;
+        background-size: 1920px 1210px;
+        
+        margin: 0;
+        height: 1204px;
+    }
+    .header-loop
+    {
+        display: none ;
+    }
+    .menu-overlay {
+        display: none ;
+    }
+
+    .menu-overlay.active {
+        display: none ;
+    }
+    .hamburger-line {
+        display: none ;
+    }
+
+    .hamburger-btn {
+        display: none ;
+    }
+    .nav-menu
+    {
+        display: none;
+    }
+    .nav-list
+    {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+    }
+    .header-nav 
+    {
+        display: block;
+    }
 }

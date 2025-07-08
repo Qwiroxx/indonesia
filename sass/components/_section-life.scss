@@ -1,6 +1,21 @@
 @import "../utils/variables.scss";
 @media (min-width: 320px)
 {
+    .peoples
+    {
+        width: 300px;
+    }
+    .life-gallery
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    .life-img
+    {
+        width: 307px;
+    }
     .life
     {
         height: 1451px;
@@ -21,26 +36,14 @@
         width: 314px;
         margin-top: 83px;
     }
-    .aa
+    .life-overall
     {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .ss
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 40px;
-    }
-    .aaa
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
+    
+    
     .life-title 
     {
         font-family: DM Sans;
@@ -62,5 +65,60 @@
         text-align: center;
         color: white;
         width: 312px;
+    }
+}
+@media (min-width: 1024px)
+{
+    .life
+    {
+        background-image: url(/img/road-bg-pc.png);
+        background-position: center;
+        background-size: 1920px 1400px;
+        height: 1400px;
+    }
+    .life-overall
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 150px;
+    }
+    .life-title-modified
+    {
+        width: 900px;
+        margin-bottom: 0;
+    }
+    .life-gallery
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .life-item
+    {
+        display: flex;
+        align-items: center;
+        gap: 41px;
+    }
+    .peoples
+    {
+        width: 800px;
+    }
+    .life-info-overall
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+    .life-info
+    {
+        text-align: start;
+    }
+    .life-img
+    {
+        width: 250px;
     }
 }

@@ -4,6 +4,9 @@
 @import "./components/section-stats";
 @import "./components/section_hills-valleys";
 @import "./components/section-life";
+@import "./components/section-gallery";
+@import "./components/section-booking";
+@import "./components/footer";
 a
 {
     text-decoration: none;
@@ -21,6 +24,15 @@ body
 .container
     {
         max-width: 265px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1024px)
+{
+    .container
+    {
+        max-width: 1275px;
         padding: 0 15px;
         margin: 0 auto;
     }

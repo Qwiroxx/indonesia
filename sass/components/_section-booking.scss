@@ -1,0 +1,215 @@
+@import "../utils/variables.scss";
+@media (min-width: 320px)
+{
+    .booking-number-modified
+    {
+        font-family: DM Sans;
+        font-weight: 500;
+        font-size: 26.41px;
+        line-height: 38.15px;
+        letter-spacing: 0px;
+        text-align: center;
+        vertical-align: middle;
+        width: 8px;
+        height: 36px;
+        background-color: $main-red;
+        padding: 13px 27px 13px 27px;
+        border-radius: 100%;
+        color: white;
+    }
+    .booking-number
+    {
+        font-family: DM Sans;
+        font-weight: 500;
+        font-size: 26.41px;
+        line-height: 38.15px;
+        letter-spacing: 0px;
+        text-align: center;
+        vertical-align: middle;
+        width: 8px;
+        height: 36px;
+        background-color: $main-red;
+        padding: 13px 30px 13px 25px;
+        border-radius: 100%;
+        color: white;
+    }
+    .show-more
+    {
+        font-family: DM Sans;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: $main-red;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .booking-title
+    {
+        font-family: DM Sans;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: $main-blue;
+    }
+    .booking-info
+    {
+        color: #15143966;
+        font-family: DM Sans;
+        font-weight: 400;
+        font-size: 23.47px;
+        line-height: 38.15px;
+        letter-spacing: 0px;
+        width: 270px;
+        margin-bottom: 0;
+    }
+    .booking-main-title
+    {
+        font-family: DM Sans;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: $main-blue;
+    }
+    .booking 
+    {
+        background-color: #DCE8F2;
+        height: 1539px;
+    }
+    .booking-overall
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .booking-item
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .booking-item-modified
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .booking-list
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    .booking-info-modified
+    {
+        display: none;
+    }
+    .line
+    {
+        display: none;
+    }
+}
+@media (min-width: 1024px)
+{
+    .line
+    {
+        position: absolute;
+        height: 1200px;
+        right: 1298px;
+        top: 7700px;
+        display: block;
+    }
+    .booking-number
+    {
+        z-index: 3;
+        position: relative;
+        top: 92px;
+        right: 100px;
+    }
+    .booking-number-modified
+    {
+        position: relative;
+        top: 92px;
+        right: 100px;
+    }
+    .show-more
+    {
+        display: none;
+    }
+    .booking
+    {
+        height: 2000px;
+    }
+    .booking-item
+    {
+        display: flex;
+        align-items: start;
+    }
+    .booking-item-modified
+    {
+        justify-content: start;
+        flex-direction: row;
+        gap: 50px;
+        width: 1000px;
+
+    }
+    .booking-info-modified
+    {
+        display: block;
+        width: 1000px;
+        text-align: start;
+        font-family: DM Sans;
+        font-weight: 400;
+        font-size: 23.47px;
+        line-height: 38.15px;
+        letter-spacing: 0px;
+        color: #15143966;
+        margin-bottom: 0;
+
+    }
+    .bike-info-modified
+    {
+        display: block;
+        width: 450px;
+        text-align: start;
+        font-family: DM Sans;
+        font-weight: 400;
+        font-size: 23.47px;
+        line-height: 38.15px;
+        letter-spacing: 0px;
+        color: #15143966;
+        margin-bottom: 0;
+    }
+    .booking-title-modified
+    {
+        font-family: DM Sans;
+        font-weight: 700;
+        font-size: 26.41px;
+        line-height: 41.08px;
+        letter-spacing: 0px;
+        color: $main-blue;
+        margin-bottom: 10px;
+    }
+    .booking-list
+    {
+        gap: 100px;
+    }
+    .booking-info
+    {
+        display: none;
+    }
+    .item-modified 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+}

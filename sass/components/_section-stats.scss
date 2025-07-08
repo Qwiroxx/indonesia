@@ -1,6 +1,10 @@
 @import "../utils/variables.scss";
 @media (min-width: 320px)
 {
+    .stats-gallery
+    {
+        display: none;
+    }
     .section-stats
     {
         background-image: url(/img/boy_in-yellow.png);
@@ -96,5 +100,62 @@
         justify-content: center;
         padding-right: 30px;
         gap: 0;
+    }
+    .upper-info
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width: 1024px)
+{
+    
+    .section-stats
+    {
+        background-image: url(/img/boy-in-yellow-pc.png);
+        background-size: 1920px 1970px;
+        height: 1970px;
+    }   
+    .palm-img
+    {
+        display: none;
+    }
+    .stats-gallery
+    {
+        display: flex;
+        gap: 15px;
+        padding-left: 0;
+    }
+    .stats-bg
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+        width: 1920px;
+        height: 630px;
+        margin-top: 131px;
+    }
+    .upper-stat
+    {
+        width: 300px;
+    }
+    .stats-info-modified
+    {
+        width: 420px;
+    }
+    .stats 
+    {
+        display: flex;
+        align-items: start;
+    }
+    .lower-stat-modified
+    {
+        width: 350px;
+    }
+    .stats-item
+    {
+        gap: 15px;
     }
 }

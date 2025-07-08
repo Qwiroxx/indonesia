@@ -63,3 +63,24 @@
         height: 120px;
     }
 }
+@media (min-width: 1024px)
+{
+    .hills-valleys-overall
+    {
+        
+    background: 
+    url(/img/svg-bg-left.png) no-repeat 0 0 / 500px 700px,
+    url(/img/svg-bg-right.png) no-repeat 100% 100% / 700px 500px;
+
+    }
+    .hills-valleys-title
+    {
+        width: 500px;
+        height: 100px;
+        margin-bottom: 0;
+    }
+    .hills-valleys-info
+    {
+        width: 430px;
+    }
+}

@@ -27,13 +27,13 @@
 }
 @media (min-width: 320px)
 {
-    .section-learn {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 35px;
-  overflow: hidden;
+  .section-learn {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    overflow: hidden;
 }
 
 .section-learn::before {
@@ -98,5 +98,69 @@
   color: white;
   border: none;
   cursor: pointer;
+}
+}
+@media (min-width: 1024px)
+{
+  .section-learn {
+    position: static;
+background: 
+  linear-gradient(180deg, #010A20 0%, rgba(1, 10, 32, 0) 100%),
+  linear-gradient(0deg, #010A20 0%, rgba(1, 10, 32, 0) 100%),
+  url(/img/wood-road-bg-pc.png),
+  url(/img/palm-bg-pc.png);
+background-size: 1900px 500px, 1900px 500px, 1920px 586px, 1920px 586px;
+background-repeat: no-repeat;
+background-position: center 614px, center 90px, center 0, center 100%;
+
+    display: flex;
+    justify-content: start;
+    overflow: visible;
+    background-color: $main-blue;
+    height: 1200px;
+}
+.learn-img
+{
+  width: 450px;
+}
+.section-learn::before {
+  display: none;
+}
+
+.learn-main {
+  position: static;
+  width: 1920px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+}
+.wood-road-bg
+{
+  display: flex;
+  gap: 300px;
+  background: none;
+  background-size: 1920px 100%;
+  padding-top: 40px;
+  padding: 30px;
+  padding-bottom: 0;
+}
+.palm-bg
+{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 300px;
+  background: none;
+  padding: 0 30px 0 30px;
+  padding-bottom: 0;
+}
+.learn-info
+{
+  width: 400px;
+}
+.learn-title
+{
+  width: 450px;
 }
 }

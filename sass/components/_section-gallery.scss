@@ -1,0 +1,137 @@
+@media (min-width: 320px)
+{
+    .gallery-list
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 0;
+        width: 317px;
+        height: 520px;
+        gap: 10px;
+    }
+    .small-img
+    {
+        height: 86px;
+        width: 151px;
+        
+    }
+    .big-img
+    {
+        height: 217px;
+        width: 151px;
+    }
+    .regular-img
+    {
+        height: 153px;
+        width: 150px;
+    }
+    .gallery
+    {
+        height: 785px;
+    }
+    .gallery-title
+    {
+        font-family: DM Sans;
+        font-weight: 700;
+        font-size: 40px;
+        leading-trim: NONE;
+        line-height: 46px;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+        color: $main-blue;
+        margin-bottom: 20px;
+    }
+    .gallery-info
+    {
+        font-family: DM Sans;
+        font-weight: 400;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: #6F7787;
+        width: 314px;
+        margin-top: 0;
+    }
+    .gallery-overall
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width: 1024px)
+{
+    .gallery
+    {
+        height: 1300px;
+    }
+    .gallery-list
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 800px;
+        height: 620px;
+        gap: 0;
+    }
+    .big-img
+    {
+        width: 220px;
+        height: 300px;
+    }
+    .small-img
+    {
+        width: 220px;
+        height: 130px;
+    }
+    .regular-img
+    {
+        width: 220px;
+        height: 220px;
+    }
+}
+    @media (min-width: 1024px) 
+{
+  .gallery {
+    height: 800px;
+    padding-top: 100px;
+  }
+  
+  .gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 700px;
+    gap: 10px;
+    padding-left: 0;
+  }
+
+  .big-img {
+    width: 220px;
+    height: 300px;
+  }
+
+  .small-img {
+    width: 220px;
+    height: 130px;
+  }
+
+  .regular-img {
+    width: 220px;
+    height: 220px;
+  }
+  .gallery-list li:nth-child(1) { order: 0; } /* two-girls (велика) */
+  .gallery-list li:nth-child(4) { order: 1;} /* one-hill (мала) */
+  .gallery-list li:nth-child(3) { order: 2; } /* rice-man (регулярна) */
+  .gallery-list li:nth-child(2) { order: 3; margin-top: -140px; } /* beach (мала) */
+  .gallery-list li:nth-child(5) { order: 4; margin-top: -310px; } /* hills (велика) */
+  .gallery-list li:nth-child(6) { order: 5; margin-top: -230px; } /* town-beach (регулярна) */
+  .gallery-info
+  {
+    width: 480px;
+  }
+}

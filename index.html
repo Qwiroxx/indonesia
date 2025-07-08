@@ -16,8 +16,23 @@
                     <use href="./symbols.svg#flower"></use>
                 </svg>
                 <a href="#" class="header-logo">EXPLORE <span id="logo-modified">INDONESIA</span></a>
-                
             </div>
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li>
+                        <a href="#" class="nav-item">destinations</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">experiences</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">about</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">gallery</a>
+                    </li>
+                </ul>
+            </nav>
                 <div class="header-svg">
                 <svg class="header-loop">
                     <use href="./symbols.svg#loop"></use>
@@ -34,46 +49,54 @@
         <main>
             <section>
                 <div class="container section-hero">
-                    <h1 class="hero-explore">explore indonesia</h1>
-                    <button class="hero-button">Start travelling</button>
-                    <ul class="hero-info">
-                        <li>
-                            <p class="info-order">01</p>
-                            <p class="info-title">Title here</p>
-                            <p class="hero-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
-                        </li>
-                        <li>
-                            <p class="info-order">02</p>
-                            <p class="info-title">Title here</p>
-                            <p class="hero-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
-                        </li>
-                        <li>
-                            <p class="info-order">03</p>
-                            <p class="info-title">Title here</p>
-                            <p class="hero-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
-                        </li>
-                    </ul>
-                    <div class="hero-vid">
-                        <video src="./vid/vid.mp4" width="312px" height="200px" controls>
-                            <source src="vid.mp4" type="vid/mp4">
-                        </video>
-                        <img srcset="./img/vid-cover.png 1x, ./img/vid-cover@2x.png 2x" width="312px" height="200px" alt="cover" class="hero-cover">
+                    <div class="start-travel">
+                        <h1 class="hero-explore">explore indonesia</h1>
+                        <button class="hero-btn">Start travelling</button>
+                    </div>
+                    <div class="hero-main-info">
+                        <ul class="hero-info">
+                            <li class="hero-item">
+                                <p class="info-order">01</p>
+                                <p class="info-title">Title here</p>
+                                <p class="hero-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                            </li>
+                            <li class="hero-item">
+                                <p class="info-order">02</p>
+                                <p class="info-title">Title here</p>
+                                <p class="hero-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                            </li>
+                            <li class="hero-item">
+                                <p class="info-order">03</p>
+                                <p class="info-title">Title here</p>
+                                <p class="hero-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                            </li>
+                        </ul>
+                        <div class="hero-vid">
+                            <video src="./vid/vid.mp4" controls class="vid">
+                                <source src="vid.mp4" type="vid/mp4">
+                            </video>
+                            <img srcset="./img/vid-cover.png 1x, ./img/vid-cover@2x.png 2x" alt="cover" class="hero-cover">
+                        </div>
                     </div>
                 </div> 
             </section>
             <section class="section-learn">
                 <div class="container learn-main">
                     <div class="wood-road-bg">
-                        <img src="./img/wood-road.png" alt="wood road">
-                        <p class="learn-title">The walkways of Indonesia spellbind</p>
-                        <p class="learn-info">Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus.</p>
-                        <button class="more-btn">Learn More</button>
+                        <img src="./img/wood-road.png" alt="wood road" class="learn-img">
+                        <div>
+                            <p class="learn-title">The walkways of Indonesia spellbind</p>
+                            <p class="learn-info">Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus.</p>
+                            <button class="more-btn">Learn More</button>
+                        </div>
                     </div>
                     <div class="palm-bg">
-                        <img src="./img/palm.png" alt="palm">
-                        <p class="learn-title learn-title-modified">Perfect beaches exude relaxation and fun</p>
-                        <p class="learn-info">Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus.</p>
-                        <button class="more-btn">Learn More</button>
+                        <img src="./img/palm.png" alt="palm" class="learn-img">
+                        <div>
+                            <p class="learn-title learn-title-modified">Perfect beaches exude relaxation and fun</p>
+                            <p class="learn-info">Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus.</p>
+                            <button class="more-btn">Learn More</button>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -85,7 +108,12 @@
                             <svg class="slider-svg">
                                 <use href="./symbols.svg#arrowLeft"></use>
                             </svg>
-                            <img src="./img/palm-beach.png" alt="palm on beach">
+                            <img src="./img/palm-beach.png" alt="palm on beach" class="palm-img">
+                            <ul class="stats-gallery">
+                                <li><img src="./img/house-water.png" alt="house at water" width="350px"></li>
+                                <li><img src="./img/kids.png" alt="kids" width="350px"></li>
+                                <li><img src="./img/green-hill.png" alt="green hiil" width="350px"></li>
+                            </ul>
                             <svg class="slider-svg">
                                 <use href="./symbols.svg#arrowRight"></use>
                             </svg>
@@ -93,18 +121,18 @@
                         <img srcset="./img/slider.png 1x, ./img/slider@2x.png 2x" alt="slider">
                     </div>
                     <div class="stats-bg">
+                        <div class="upper-info">
+                            <p class="upper-stat">By The Numbers</p>
+                            <p class="stats-info stats-info-modified">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
                         <ul class="stats">
-                            <li class="stats-item">
-                                <p class="upper-stat">By The Numbers</p>
-                                <p class="stats-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </li>
                             <li class="stats-item">
                                 <p class="stats-numbers">100+</p>
                                 <p class="stats-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
                             </li>
                             <li class="stats-item">
                                 <p class="stats-numbers">43,000+</p>
-                                <p class="stats-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo.</p>
+                                <p class="stats-info lower-stat-modified">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo.</p>
                             </li>
                             <li class="stats-item">
                                 <p class="stats-numbers">30+</p>
@@ -117,49 +145,146 @@
             <section class="hills-valleys-overall">
                 <div class="container hills-valleys">
                     <p class="hills-valleys-title">Our hills and valleys are like nothing you’ve seen.</p>
-                    <p class="hills-valleys-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna commodo, tempus dolor sit amet, laoreet elit. Donec mauris tortor, elementum sed.</p>
+                    <p class="hills-valleys-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna commodo, tempus dolor sit amet, laoreet elit. Donec mauris tortor.</p>
                     <button class="more-btn">Learn More</button>
                 </div>
             </section>
             <section class="life">
-                <div class="container aa">
+                <div class="container life-overall">
                     <p class="life-title-modified">Live a life like you wouldn’t imagine, experience a life you wouldn’t expect.</p>
-                    <div class="ss">
-                        <img src="./img/indonesia-peoples.png" alt="peoples">
-                        <img src="./img/road.png" alt="road">
-                    </div>
-                    <div class="aaa">
-                        <p class="life-title">In The Country</p>
-                        <p class="life-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus.</p>
-                        <img src="./img/city.png" alt="city">
-                        <p class="life-title">In The City</p>
-                        <p class="life-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in.</p>
-                    </div>
+                    <img srcset="./img/indonesia-peoples.png 1x, ./img/indonesia-peoples@2x.png 2x" alt="peoples" class="peoples">
+                    <ul class="life-gallery">
+                        <li class="life-item">
+                            <img src="./img/road.png" alt="road" class="life-img">
+                            <div class="life-info-overall">
+                                <p class="life-title">In The Country</p>
+                                <p class="life-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus.</p>
+                            </div>
+                            </li>
+                        <li class="life-item">
+                            <img src="./img/city.png" alt="city" class="life-img">
+                            <div class="life-info-overall">
+                                <p class="life-title">In The City</p>
+                                <p class="life-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in.</p>
+                            </div>
+                            </li>
+                        </ul>
+                </div>
+            </section>
+            <section class="gallery">
+                <div class="container gallery-overall">
+                    <p class="gallery-title">Photo Gallery</p>
+                    <p class="gallery-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt.</p>
+                    <ul class="gallery-list">
+                        <li class="big-img"><img src="./img/two-girls.png" alt="two-girls"  class="big-img"></li>
+                        <li class="smal-img"><img src="./img/beach.png" alt="beach" class="small-img"></li>
+                        <li class="regular-img"><img src="./img/rice-man.png" alt="rice-man" class="regular-img"></li>
+                        <li class="small-img"><img src="./img/one-hill.png" alt="hill" class="small-img"></li>
+                        <li class="big-img"><img src="./img/hills.png" alt="hills"  class="big-img"></li>
+                        <li class="regular-img"><img src="./img/town-beach.png" alt="town beach" class="regular-img"></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="booking">
+                <div class="container booking-overall">
+                    <img srcset="./img/line.png 1x, ./img/line@2x.png 2x" alt="line" class="line">
+                    <p class="booking-main-title">Getting there</p>
+                    <ul class="booking-list">
+                        <li class="booking-item">
+                            <p class="booking-number-modified">1</p>
+                            <p class="booking-title">Bookings your flights</p>
+                            <p class="booking-info">Lorem ipsum dolor set,,,,</p>
+                            <p class="booking-info-modified">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim.</p>
+                            <a href="#" class="show-more">Show More</a>
+                        </li>
+                        <li class="booking-item">
+                            <p class="booking-number">2</p>
+                            <p class="booking-title">Choosing your hotel</p>
+                            <p class="booking-info">Lorem ipsum dolor set,,,,</p>
+                            <p class="booking-info-modified">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim.</p>
+                            <a href="#" class="show-more">Show More</a>
+                        </li>
+                        <li class="booking-item-modified">
+                            <img src="./img/bike.png" alt="bike">
+                            <div class="item-modified">
+                                <p class="booking-title-modified">Travelling there</p>
+                                <p class="booking-info">Lorem ipsum dolor set,,,,</p>
+                                <p class="bike-info-modified">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt.</p>
+                                <a href="#" class="show-more">Show More</a>
+                            </div>
+                        </li>
+                        <li class="booking-item">
+                            <p class="booking-number">3</p>
+                            <p class="booking-title">Planning your experiences</p>
+                            <p class="booking-info">Lorem ipsum dolor set,,,,</p>
+                            <p class="booking-info-modified">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. </p>
+                            <a href="#" class="show-more">Show More</a>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </main>
-        <footer>
-            
+        <footer class="footer">
+            <img src="./img/arrow-up.png" alt="arrow up" class="arrow-up">
+            <div class="container footer-overall">
+                <div class="footer-logo-overall">
+                    <svg class="logo-svg">
+                        <use href="./symbols.svg#flower"></use>
+                    </svg>
+                    <a href="#" class="footer-logo">EXPLORE <span id="footer-logo-modified">INDONESIA</span></a>
+                </div>
+                <ul class="footer-nav-list">
+                    <li>
+                        <a href="#" class="footer-nav">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-nav">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-nav">Company</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-nav">Blog</a>
+                    </li>
+                </ul>
+                <div class="footer-info">
+                    <div class="footer-socials">
+                        <svg class="footer-svgs">
+                            <use href="./symbols.svg#facebook"></use>
+                        </svg>
+                        <svg class="footer-svgs">
+                            <use href="./symbols.svg#linkedin"></use>
+                        </svg>
+                        <svg class="footer-svgs">
+                            <use href="./symbols.svg#google"></use>
+                        </svg>
+                    </div>
+                    <p class="footer-copyright">Copyright © 2019</p>
+                </div>
+            </div>
         </footer>
     </div>
-    <div class="menu-overlay" id="menuOverlay">
-        <nav>
-            <ul class="nav-menu">
-                <li>
-                    <a href="#" class="nav-item">destinations</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-item">experiences</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-item">about</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-item">gallery</a>
-                </li>
-            </ul>
-        </nav>
-        <button class="close-btn" onclick="closeMenu()">✕</button>
-    <div>
+    <div class="container">
+        <div class="menu-overlay" id="menuOverlay">
+            <nav>
+                <ul class="nav-menu">
+                    <li>
+                        <a href="#" class="nav-item">destinations</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">experiences</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">about</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">gallery</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="close-btn" onclick="closeMenu()">✕</button>
+        </div>
+    </div>
         <script src="./mobile-menu.js"></script>
 </body>
 </html>
